@@ -163,7 +163,7 @@ trainer = SequenceTrainer(
             loss_fn=criterion,
             eval_fns=None,
         )
-wandb.login(key='d7894b5940d8e57fc27f403885dfc2337e043c9b')
+wandb.login(key='yourkey')
 wandb.init(
     name=exp_prefix,
     group=group_name,
